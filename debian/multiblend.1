@@ -1,0 +1,39 @@
+.TH MULTIBLEND 1 "Oct, 17 2018"
+.SH NAME
+multiblend \- Full-screen Exposé-style standalone task switcher for X11.
+.SH USAGE
+
+Usage: multiblend [options] [-o OUTPUT] INPUT...
+
+Options:
+   -l X                  X > 0: limit number of blending levels to x
+                         X < 0: reduce number of blending levels by -x
+   -d DEPTH              override automatic output image depth (8 or 16)
+  --nocrop               do not crop output
+  --bgr                  swap RGB order
+  --wideblend            calculate number of levels based on output image size,
+                         rather than input image size
+  --compression=X        output file compression. For TIFF output, X may be:
+                         NONE (default), PACKBITS, or LZW
+                         For JPEG output, X is JPEG quality (0-100, default 75)
+  --cache                cache input images to disk to minimise memory usage
+  --save-seams <file>    Save seams to PNG file for external editing
+  --no-output            Don't perform blend (for use with --save-seams)
+  --load-seams <file>    Load seams from PNG file
+  --bigtiff              BigTIFF output (not well tested)
+  --reverse              reverse image priority (last=highest)
+  --quiet                suppress output (except warnings)
+
+Pass a single image as input to blend around the left/right boundary.
+
+.SH DESCRIPTION
+.B MULTIBLEND 
+is a multi-level image blender for the seamless blending of panoramic images, 
+such as those created with PTAssembler (my personal favourite), Hugin, or PTGui. 
+It is a significantly faster drop-in alternative to Enblend, although it lacks
+Enblend's advanced features.
+.SH SEE ALSO
+http://horman.net/multiblend/
+.PP
+.SH AUTHOR
+This simple manual was created by Fernando Toledo <ragnarok@docksud.com.ar>
