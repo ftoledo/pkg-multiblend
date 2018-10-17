@@ -1,9 +1,12 @@
 Source: multiblend
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Section: x11
+Section: graphics
 Priority: optional
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9),libjpeg62-turbo-dev, libpng-dev, libtiff-dev
+Homepage: http://horman.net/multiblend/
+Vcs-Git: https://github.com/ftoledo/pkg-multiblend.git
+Vcs-Browser: https://github.com/ftoledo/pkg-multiblend
 
 Package: multiblend
 Architecture: i386 amd64
