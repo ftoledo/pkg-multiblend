@@ -1,2 +1,4 @@
 The source code do not have a makefile.
 Build instructions on build.txt
+Add -g to g++ to get debug symbols at debian/rules
+ 
