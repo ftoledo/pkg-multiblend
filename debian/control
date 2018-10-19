@@ -2,7 +2,7 @@ Source: multiblend
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Section: graphics
 Priority: optional
-Standards-Version: 3.9.8
+Standards-Version: 4.2.1
 Build-Depends: debhelper (>= 9),libjpeg62-turbo-dev, libpng-dev, libtiff-dev
 Homepage: http://horman.net/multiblend/
 Vcs-Git: https://github.com/ftoledo/pkg-multiblend.git
@@ -12,7 +12,7 @@ Package: multiblend
 Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: multi-level image blender for the seamless blending of panoramic images
- Multiblend is a multi-level image blender for the seamless blending of 
+ Multiblend is a multi-level image blender for the seamless blending of
  panoramic images, such as those created with PTAssembler (my personal
  favourite), Hugin, or PTGui. It is a significantly faster drop-in alternative
- to Enblend, although it lacks Enblend's advanced features. 
+ to Enblend, although it lacks Enblend's advanced features.
