@@ -1,2 +1,2 @@
 version=3
-https://horman.net/multiblend/multiblend(\d[\d.]*)\.(?:tar\.(?:gz|bz2|xz))
+http://horman.net/multiblend/multiblend(\d[\d.]*)\.(?:tar\.(?:gz|bz2|xz))

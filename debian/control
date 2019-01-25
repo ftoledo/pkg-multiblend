@@ -3,13 +3,13 @@ Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Section: graphics
 Priority: optional
 Standards-Version: 4.2.1
-Build-Depends: debhelper (>= 10),libjpeg62-turbo-dev, libpng-dev, libtiff-dev
+Build-Depends: debhelper (>= 11),libjpeg62-turbo-dev, libpng-dev, libtiff-dev
 Homepage: http://horman.net/multiblend/
 Vcs-Git: https://github.com/ftoledo/pkg-multiblend.git
 Vcs-Browser: https://github.com/ftoledo/pkg-multiblend
 
 Package: multiblend
-Architecture: i386 amd64
+Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: multi-level image blender for the seamless blending of panoramic images
  Multiblend is a multi-level image blender for the seamless blending of
