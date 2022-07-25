@@ -12,7 +12,7 @@ CXXFLAGS:=$(shell dpkg-buildflags --get CXXFLAGS)
 LDFLAGS:=$(shell dpkg-buildflags --get LDFLAGS)
 
 %:
-	dh $@
+	dh $@  --builddirectory=src
 
 override_dh_auto_build:
-	$(CC) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -g -msse2 -O3 -ltiff -ltiffxx -ljpeg -lpng multiblend.cpp -o multiblend
+	cd src; g++ $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -msse4.1 -pthread -ffast-math -Ofast -o multiblend multiblend.cpp -lm -lpng -ltiff -ljpeg

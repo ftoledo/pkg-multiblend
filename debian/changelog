@@ -1,5 +1,5 @@
-multiblend (0.6.2-1) unstable; urgency=medium
+multiblend (2.0~rc5-1) unstable; urgency=medium
 
   * Initial release. (Closes: #911235)
 
- -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 17 Oct 2018 00:06:46 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 20 Jul 2022 00:06:46 -0300

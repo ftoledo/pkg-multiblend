@@ -2,8 +2,8 @@ Source: multiblend
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Section: graphics
 Priority: optional
-Standards-Version: 4.2.1
-Build-Depends: debhelper (>= 11),libjpeg62-turbo-dev, libpng-dev, libtiff-dev
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 11),libjpeg62-turbo-dev, libpng-dev, libtiff-dev, g++ ( >= 10)
 Homepage: http://horman.net/multiblend/
 Vcs-Git: https://github.com/ftoledo/pkg-multiblend.git
 Vcs-Browser: https://github.com/ftoledo/pkg-multiblend
