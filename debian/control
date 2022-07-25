@@ -12,7 +12,7 @@ Package: multiblend
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: multi-level image blender for the seamless blending of panoramic images
- Multiblend is a multi-level image blender for the seamless blending of
+ This is a multi-level image blender for the seamless blending of
  panoramic images, such as those created with PTAssembler (my personal
  favourite), Hugin, or PTGui. It is a significantly faster drop-in alternative
  to Enblend, although it lacks Enblend's advanced features.
